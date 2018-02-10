@@ -19,7 +19,7 @@ public class Task0104 {
             a[i] = (int) (Math.random() * 100);
             System.out.println("a[" + i + "]=" + a[i]);
         }
-        for (int i = 0; i < n / 2; i++) {
+        for (int i = 0; i < (n+1) / 2; i++) {
             int summa = a[i] + a[n - i - 1];
             System.out.println("Summa = " + summa);
             if (max < summa) {
