@@ -19,8 +19,7 @@ public class Task0105 {
             for (int i = 0; i < n; i++) {
                 if (j == i || (n - 1 - i) == (n - 1 - j) || (n - 1 - j) == i || (n - 1 - i) == j) {
                     matritsa[j][i] = 1;
-                } else
-                    matritsa[j][i] = 0;
+                }
                 System.out.print(matritsa[j][i] + " ");
             }
             System.out.println(" ");
