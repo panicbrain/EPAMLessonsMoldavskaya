@@ -16,5 +16,6 @@ public class Task0102 {
             System.out.format("a[" + i + "]=" + "%.3f%n", a);
         } while (a >= e);
         System.out.println("Минимальный номер элемента последовательности, для которого выполняется условие - " + i);
+        System.out.println("I just want to test my git");
     }
 }
